@@ -152,6 +152,7 @@
     }
     .search {
         width: 275px;
+        justify-content: center;
     }
     .subscribe {
         width: 275px;
