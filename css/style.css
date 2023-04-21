@@ -18,6 +18,54 @@ hr {
     width: 80%;
     margin: 40px auto;
 }
+/* PRE LOADER  */
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 333;
+}
+.loader {
+	position: relative;
+	margin: 75px auto;
+	width: 150px;
+	height: 150px;
+	display: block;
+	overflow: hidden;
+}
+.loader div {
+    height: 100%;
+}
+.loader3,
+.loader3 div {
+	border-radius: 50%;
+	padding: 8px;
+	border: 2px solid transparent;
+	animation: rotate linear 3.5s infinite;
+	border-top-color: rgb(21, 202, 21);
+	border-left-color: rgb(26, 192, 26);
+	animation-timing-function: cubic-bezier(0.55, 0.38, 0.21, 0.88);
+	animation-duration: 3s;
+}
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/* CONTAINER  */
 
 .container {
     max-width: 1440px;
