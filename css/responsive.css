@@ -138,7 +138,7 @@
     
     /* CONTENT  */
     .content {
-        padding: 40px 10px;
+        padding: 100px 10px;
     }
     
     .content p {
@@ -150,7 +150,12 @@
         width: 100%;
         font-size: 30px;
     }
-    
+    .search {
+        width: 225px;
+    }
+    .subscribe {
+        width: 275px;
+    }
     /* SERVICES  */
     .services {
         padding: 50px 5% 0;
