@@ -55,7 +55,7 @@
     .head_bg > img {
         height: 100vh;
         object-fit: cover;
-/*         filter: brightness(0.7) blur(2px); */
+        filter: brightness(0.7) blur(1px);
     }
 
     /* SERVICES  */
