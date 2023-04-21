@@ -152,7 +152,6 @@
     }
     .search {
         width: 225px;
-        justify-content: center;
     }
     .search a {
        display: none;
