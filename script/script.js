@@ -1,3 +1,7 @@
+window.addEventListener('load', function () {
+    document.querySelector(".preloader").style.display = "none"
+});
+
 let a = document.querySelector(".nav");
 
 function menu() {
