@@ -155,16 +155,7 @@
         justify-content: center;
     }
     .search a {
-        color: white;
-        text-decoration: none;
-        background-image: linear-gradient(to right, #2AF598, #009EFD);
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+       display: none;
     }
     .subscribe {
         width: 275px;
